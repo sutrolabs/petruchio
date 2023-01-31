@@ -22,7 +22,9 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-There's a bunch of reasons you might want to use a ring buffer. For example, you might need one to back a rate limiter:
+There's a bunch of reasons you might want to use a ring buffer. For example, you might need one to back a rate limiter.
+
+Give it your Redis instance, a name for the buffer, buffer size, and a default value each entry in the buffer is initialized with:
 
 ```ruby
 @ring = Petruchio::Ring.new(redis_instance, 'request_limiter', 10, 0.0)
