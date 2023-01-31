@@ -52,4 +52,4 @@ Feedback
 
 From
 -----------
-:wave: The folks at [Census](http://getcensus.com) originally put this together. Have data? We'll sync your data warehouse with your CRM and the customer success apps critical to your team.
+:wave: The folks at [Census](http://getcensus.com) originally put this together. Have data? We'll sync your data warehouse with your CRM and the customer success apps critical to your team. Interested in joining the team? **[Come work with us](https://www.getcensus.com/careers)**.
