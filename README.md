@@ -40,13 +40,13 @@ push will add the newest things:
 @ring.push(future_request_time.to_f)
 ```
 
-The buffer doesn't monitor its own constant size. So you could push and pop simultaneously.
+The buffer doesn't monitor its own constant size (i.e. it won't currently raise an error if you push to a full buffer). So you could push and pop simultaneously.
 
 ```ruby
 previous_request_time = @ring.push_pop(future_request_time.to_f)
 ```
 
-And if you need a lock around pushing and popping [stay tuned](https://github.com/sutrolabs).
+Or lock around your push/pop operations. (And if you need a lock [stay tuned](https://github.com/sutrolabs))
 
 
 ## Todos
